@@ -65,9 +65,16 @@ https//
 ## components
 
 see documentation: 
-- [mqtt](Components/mqtt.md)
-- [security webpage](Components/webpage.md)
-- [Node Red](Components/nodered.md)
+- [mqtt](./Components/mqtt.md)
+- [security webpage](./Components/webpage.md)
+- [Node Red](./Components/nodered.md)
 
 ## Bibliographie
 
+
+### Mentors
+
+- [Nico De Witte](https://github.com/BioBoost)
+- [Piet Cordemans](https://github.com/pcordemans)
+- [Sille Van Landschoot](https://github.com/sillevl)
+- [Jonas Lannoo](https://github.com/JonasLannoo)
