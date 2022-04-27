@@ -23,9 +23,9 @@ The project we have chosen is, SIN Greenhouse. The main goal of the project is t
 
 Here you have a full schema of the setup of or project.
 
-|Schema|Mqtt_Schema|
-|---|---|
-|![Schema](img/Schema.png)|![Mqtt_Schema](img/Mqtt_Schema.png)|
+|Schema|Mqtt_Schema|FreeOPC|
+|---|---|---|
+|![Schema](./img/Schema.png)|![Mqtt_Schema](./img/Mqtt_Schema.png)|![OPC_Add](./img/Mqtt_Schema_OPC.png)|
 
 ### Schema PLC
 ![Schema PLC](img/Schema-plc.png)
@@ -37,15 +37,28 @@ fotos met de webpage/dashboards.
 
 ## Problem
 
+<!-- - Manipulate states of devices on the PLC by sending data to the PLC.  -->
+
+
+
 
 ## Goal
 
 ## Analysis
+- What are the constraints of the problem?
+    - Everything must run on the RPI. 
+- Which criteria are important, which are nice to have?
+        - Data can be adjusted quickly
+    - Data is displayed well.
+- Which technological solutions exist for these constraints / criteria?
+    - Keeping a good overview. Occasionally ask around if data is coming across well to the customer. 
 
 ## Result
 
 ## Possible extensions
-
+- Securing the system so that the data can no longer be manipulated.
+- Connect analog temperature sensors for comparison.
+- By building an extra webpage where one can see how many packets of data are sent over mqtt. the number of connected clients etc.
 ## Conclusion
 
 ## Link to movie
